@@ -34,5 +34,5 @@ def covid_stats():
 	corona_data='https://covidstats-sdbd.onrender.com/?country='+text
 	return render_template("index.html",image=corona_data,count=visitors_count)
 #add code for executing flask
-if __name__="__main__":
+if __name__=="__main__":
 	app.run()
